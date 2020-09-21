@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pruebafinal2109"
+    }
+  },
+  "defaultProject": "pruebafinal2109",
+  "cli": {
+    "analytics": false
+  }
 }
