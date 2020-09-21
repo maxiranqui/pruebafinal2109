@@ -1,0 +1,4 @@
+[
+    { "nombre": "Sofia", "apellido":"canio", "telefono" : "299555666", "direccion" : "avenida siempre viva", "fechaNacimiento": "25/05/1998"},
+    { "nombre": "katy", "apellido":"Sin", "telefono" : "299202080", "direccion" : "su casa", "fechaNacimiento": "11/07/2011"}
+]

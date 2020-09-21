@@ -1,0 +1,8 @@
+<button mat-button [matMenuTriggerFor]="menu" mat-flat-button color="accent">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/cliente-component" >Cargar Cliente</button>
+  <button mat-menu-item routerLink="/listar-cliente-component" >Listado Cliente</button>
+  <button mat-menu-item routerLink="/rutina-component" >Cargar Rutina</button>
+</mat-menu>
+
+s<router-outlet></router-outlet>

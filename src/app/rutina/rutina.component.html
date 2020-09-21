@@ -1,1 +1,36 @@
-<p>rutina works!</p>
+<form [formGroup]='rutinaForm'>
+    <h1>Formulario Rutina</h1>
+    <div class="datosRutina">
+
+
+        <mat-form-field appearance="fill">
+            <mat-label>Nombre de Rutina</mat-label>
+                <input matInput type="text" formControlName="rutina">
+        </mat-form-field>
+
+        <!-- <mat-form-field appearance="fill">
+            <mat-label>Cars</mat-label>
+            <select matNativeControl required>
+              <option formControlName="rutina" value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+          </mat-form-field> -->
+        
+        <mat-form-field appearance="fill">
+            <mat-label>Número de repeticiones</mat-label>
+                <input matInput type="number" formControlName="repeticiones">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Peso a levantar</mat-label>
+            <input matInput type="number" formControlName="peso">
+        </mat-form-field>
+
+       
+    </div>
+    
+    <button mat-raised-button (click)="subir()">Enviar</button>
+    
+</form>
